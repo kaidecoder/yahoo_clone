@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: #2d1252;
+    color: white;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+    list-style-type: none;
+}
+.navbar-left{
+    width: 50%;
+    
+}
+.header-2{
+    display: flex;
+    padding: 20px 0;
+    font-size: 15px;
+}
+.header2-left{
+    justify-content: flex-start;
+    width: 60%;
+}
+.text-box{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+}
+.news-box{
+    height: 40px;
+    width: 100px;
+}
+.web-box{
+    height: 40px;
+    width: 100px;
+}
+.header2-right{
+    justify-content: flex-end;
+}
+.header-3{
+    display: flex;
+    justify-content:space-between;
+    font-size: 15px;
+}
+.header3-left{
+    justify-content: flex-start;
+    width: 60%;
+}
+.header3-right ul{
+    justify-content: space-between;
+}
+.ad1{
+    display: flex;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.ad1-left{
+    width: 45%;
+
+}
+.ad1-right{
+    width: 55%;
+    inline-size: 500px;
+    padding-top: 40px;
+}
+.ad1-right button{
+    background-color: rgb(0, 89, 255);
+    color: #ccc;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 35px;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: thin;
+    margin: 20px;
+}
+.ad1-right p{
+    margin-top: 20px;
+}
+
+.second-ad{
+    display: flex;
+}
+.ad2{
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(92, 75, 75);
+}
+
+.ad2-right{
+    inline-size: 200px;
+    padding-top: 40px;
+
+}
+.ad2right2{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.ad2right2 img{
+    position: absolute;
+}
+.ad2right2 p{
+    inline-size: 200px;
+    margin-top: 100px;
+}
+.ad2right2 img2{
+    z-index: -10;
+}
+.ad2right2 img1{
+    z-index: 50;
+}
+.bottom-row{
+    display: flex;
+    width: 70%;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.bottom-row img{
+    width: 200px;
+    height: 100px
+}

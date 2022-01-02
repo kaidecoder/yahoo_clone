@@ -3,29 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 0 40px;
+    width: 100vw;
+}
 .navbar{
+    position: relative;
     background: #2d1252;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
+    padding:3px;
+    width: 100vw;
 }
+
 ul{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
+    width: 40%;
     padding-right: 50px;
     list-style-type: none;
+    margin-left: 20px;
 }
-.navbar-left{
-    width: 50%;
+.navbar, .home{
+    position: absolute;
+    top: 2px;
+    left: 2px;
     
 }
 .header-2{
+    position: relative;
     display: flex;
-    padding: 20px 0;
+    padding: 40px 0;
     font-size: 15px;
+
+}
+.yahoo{
+    position: absolute;
+    top: 40px;
+    left: 0px;
 }
 .header2-left{
-    justify-content: flex-start;
-    width: 60%;
+    justify-content: flex-end;
+    margin-left: 150px;
+    width: 70%;
 }
 .text-box{
     width: 300px;
@@ -34,26 +54,51 @@ ul{
 }
 .news-box{
     height: 40px;
-    width: 100px;
+    width: 120px;
 }
 .web-box{
     height: 40px;
-    width: 100px;
+    width: 120px;
 }
 .header2-right{
-    justify-content: flex-end;
-}
-.header-3{
+    position: relative;
     display: flex;
-    justify-content:space-between;
+    justify-content:flex-end;
+
+}
+.header2-right .mail{
+    position: absolute;
+    left: 125px;
+    top: 5px;
+}
+.header2-right .logo{
+    position: absolute;
+    left: 0px;
+    top: 1px;
+}
+.header2-right h3{
+    position: absolute;
+    left: 45px;
+    top: 4px;
+}
+.header2-right h2{
+    position: absolute;
+    left: 170px;
+}
+.header3{
+    display: flex;
+    position: relative;
     font-size: 15px;
 }
 .header3-left{
-    justify-content: flex-start;
-    width: 60%;
+    justify-content:space-between;
+    width: 50%;
 }
-.header3-right ul{
-    justify-content: space-between;
+.header3-right{
+    justify-content:space-around;
+    position: absolute;
+    right: 0px;
+
 }
 .ad1{
     display: flex;
